@@ -1,0 +1,5 @@
+package q12_Thread_creation;
+
+public class MyRunnableThread {
+
+}

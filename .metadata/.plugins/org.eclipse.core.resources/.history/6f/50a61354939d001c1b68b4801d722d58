@@ -1,0 +1,22 @@
+package q5_cunstructor;
+
+class DefaultConstractor{
+	int id;
+	String name;
+
+void display() {
+	System.out.println(id+" "+name);
+	}
+}
+
+public class DefaultConstractor {
+
+public static void main(String[] args) {
+
+	DefaultConstractor emp1=new DefaultConstractor();
+	DefaultConstractor emp2=new DefaultConstractor();
+
+	emp1.display();
+	emp2.display();
+	}
+}
